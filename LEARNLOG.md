@@ -2,6 +2,9 @@
 tags: Webpack学習
 title: Webpackの学習
 ---
+
+[![hackmd-github-sync-badge](https://hackmd.io/NrvLB9AbQOq8WAGhcLSXMw/badge)](https://hackmd.io/NrvLB9AbQOq8WAGhcLSXMw)
+
 Webpackを勉強して、少しでも開発業務を楽に早くできるように環境を整える
 
 # Webサイト制作のHTML / CSS / JSコーディングを一気に効率化する実践Webpack講座
@@ -9,6 +12,11 @@ Webpackを勉強して、少しでも開発業務を楽に早くできるよう�
 
 
 ##### webpack5版  
+<style>
+.ml2 {
+  margin-left: 2em;
+}
+</style>
 <details>
   <summary>§１Webpack講座の概要</summary>
   <a class="ml2" href="https://www.udemy.com/course/webpack-config/learn/lecture/18396636#overview">
