@@ -24,7 +24,7 @@ Webpackを勉強して、少しでも開発業務を楽に早くできるよう�
   <a class="ml2" href="https://www.udemy.com/course/webpack-config/learn/lecture/18435090#overview">
 4.ウェブサイトの基本的な構成　📺 </a><br>
   <a class="ml2" href="https://github.com/shunwitter/webpack_course/tree/section/01">
- 5.テキスト版教材（ソースを含む）🖥  </a>
+5.テキスト版教材（ソースを含む）🖥  </a>
  <details class="ml2">
    <summary>学習メモ</summary>
    <div>✦ポイント</div>
@@ -58,7 +58,6 @@ Webpackを勉強して、少しでも開発業務を楽に早くできるよう�
 16.Windows/Gitの初期化からGithubとの連携まで　📺 </a><br>
   <a class="ml2" href="https://github.com/shunwitter/webpack_course/tree/section/02">
 17.テキスト版教材（ソースを含む）🖥  </a>
-
  <details class="ml2">
    <summary>学習メモ</summary>
    <div>✦ポイント</div>
@@ -184,6 +183,34 @@ Webpackを勉強して、少しでも開発業務を楽に早くできるよう�
  <details class="ml2">
    <summary>学習メモ</summary>
    <div>✦ポイント</div>
+     <summary>学習メモ</summary>
+     <p>webpack.config.js</p>
+     <pre>
+     <code>
+         〜略〜
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+〜略〜
+module.exports = {
+  〜略〜
+        ,
+        {
+        test: /\.pug/,
+        use: [
+          {
+            loader: 'html-loader',
+          },
+          {
+            loader: 'pug-html-loader',
+            options: {
+              pretty: true,
+            },
+          },
+        ],
+      },
+  〜略〜
+};
+     </code>
+     </pre>
    <div>✦考察</div>
  </details>
 </details>
